@@ -35,7 +35,7 @@
 
 int main()
 {
-  int a, b, c, d;
+  int a, b;
 
   printf("\nEnter the number of rows and column in matrix 1: ");
   scanf("%d %d", &a, &b);
