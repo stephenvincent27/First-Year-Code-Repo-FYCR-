@@ -12,6 +12,8 @@
      j=0;
      i++;
      readMatrixR(p,row,col);
+     i=0;
+     j=0;
      return;
    }
 
