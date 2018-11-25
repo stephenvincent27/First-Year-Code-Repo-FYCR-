@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void readMatrixR(int *p, int row, int col) //Function for reading a matrix
+void readMatrixR(int *p, int row, int col) //Function for reading a matrix, recursively (Refer to Read Matrix using Recursion.c)
 {
   static int i=0, j=0;
   if (i==row)
@@ -55,7 +55,7 @@ void matrixMulR(int *a, int *b, int *c, int row, int col, int com) //Function fo
   return;
 }
 
-void printMatrix(int *p, int row, int col)
+void printMatrix(int *p, int row, int col) //function to print a matrix, non recursively
 {
   int i, j;
   for(i=0;i<row;i++)
